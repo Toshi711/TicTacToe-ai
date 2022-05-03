@@ -1,3 +1,4 @@
+import boardToString from "./boardToString"
 class TicTacToe {
 
     constructor({dificulty='hard',board = Array(9).fill(0)}) {
@@ -85,6 +86,11 @@ class TicTacToe {
 
             return err
         })
+    }
+
+    boardToString(){
+
+        return boardToString(this.board)
     }
 }
 
