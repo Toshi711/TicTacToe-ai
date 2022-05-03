@@ -20,4 +20,4 @@ function boardToString(layout){
 }
 
 
-export default boardToString
+module.exports = boardToString

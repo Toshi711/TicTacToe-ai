@@ -1,4 +1,4 @@
-import boardToString from "./boardToString"
+const boardToString = require('./boardToString.js')
 class TicTacToe {
 
     constructor({dificulty='hard',board = Array(9).fill(0)}) {
@@ -94,5 +94,4 @@ class TicTacToe {
     }
 }
 
-export default TicTacToe
-
+module.exports = TicTacToe
